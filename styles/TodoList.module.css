@@ -1,0 +1,10 @@
+/*====checkbox=====*/
+.checkbox {
+	justify-content: space-between;
+	align-items: center;
+	align-items: center;
+	text-transform: capitalize;
+	list-style: none;
+	padding: 20px;
+	margin: 10px 0;
+}

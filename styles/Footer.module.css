@@ -1,0 +1,21 @@
+/*====footer=====*/
+.todoFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.delete {
+	width: 100px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.label {
+	cursor: pointer;
+}
+.subtitle {
+	text-align: center;
+	color: rgb(221, 70, 15);
+}
