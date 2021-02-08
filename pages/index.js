@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import TodoFooter from './../components/TodoFooter';
-import TodoForm from './../components/Form';
+import TodoForm from './../components/Form/TodoForm';
 import TodoList from './../components/TodoList';
 import {TodoProvider}  from './../context/DataProvider'
-import styles from '../styles/Form.module.css'
+import styles from './../styles/Form.module.css'
 
 function App() {
   return (

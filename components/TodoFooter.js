@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react'
-import {TodoContext} from './DataProvider'
-import styles from '../styles/Footer.module.css'
+import {TodoContext} from './../context/DataProvider'
+import styles from './../styles/Footer.module.css'
 
 const TodoFooter = () => {
 

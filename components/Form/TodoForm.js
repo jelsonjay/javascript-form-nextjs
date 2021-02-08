@@ -1,6 +1,6 @@
 import React, {useState, useContext, useRef}  from 'react'
-import {TodoContext} from './DataProvider'
-import styles from '../styles/Form.module.css'
+import {TodoContext} from '../../context/DataProvider'
+import styles from '../../styles/Form.module.css'
 
 const TodoForm = () => {
  const [todos, setTodos] = useContext(TodoContext)

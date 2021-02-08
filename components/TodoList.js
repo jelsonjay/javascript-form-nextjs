@@ -1,7 +1,7 @@
 import React, {useContext }from 'react'
 import ListItems from './ListItems'
-import {TodoContext} from './DataProvider'
-import style from '../styles/TodoList.module.css'
+import {TodoContext} from './../context/DataProvider'
+import style from './../styles/TodoList.module.css'
 
 const TodoList = () => {
 
